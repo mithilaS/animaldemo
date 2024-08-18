@@ -23,7 +23,7 @@ public class AnimalRestClient {
 
     public byte[] getCatDetails() {
         log.info("In getCatDetails rest call");
-        byte[] image = restTemplate.getForObject("https://place.dog/300/200", byte[].class);
+        byte[] image = restTemplate.getForObject("https://cataas.com/cat", byte[].class);
         if (image != null)
             log.info("Image length of meow meow : {}", String.valueOf(image.length));
         return image;
