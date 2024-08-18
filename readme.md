@@ -33,5 +33,7 @@ docker build -t animaldemo:latest
 docker run -i --publish 8080:8080 animaldemo:latest
 ```
 
-Goto http://localhost:8080/ and select animal. 
+**Goto http://localhost:8080/** and select animal. 
+
+Please note : I didn't get enough time to complete the test cases and mock the class. I have commented out the Test code for time being.
 
