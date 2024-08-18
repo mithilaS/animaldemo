@@ -17,7 +17,7 @@ public class AnimalRestClient {
         log.info("In getDogDetails rest call");
         byte[] image = restTemplate.getForObject("https://place.dog/300/200", byte[].class);
         if (image != null)
-            log.info("Image length of woof woof : {}", String.valueOf(image.length));
+            log.info("Image length of woof woof : {}",image.length);
         return image;
     }
 
@@ -25,7 +25,7 @@ public class AnimalRestClient {
         log.info("In getCatDetails rest call");
         byte[] image = restTemplate.getForObject("https://cataas.com/cat", byte[].class);
         if (image != null)
-            log.info("Image length of meow meow : {}", String.valueOf(image.length));
+            log.info("Image length of meow meow : {}", image.length);
         return image;
     }
 
@@ -33,7 +33,7 @@ public class AnimalRestClient {
         log.info("In getBearDetails rest call");
         byte[] image = restTemplate.getForObject("https://placebear.com/200/300", byte[].class);
         if (image != null)
-            log.info("Image length of growl growl : {}", String.valueOf(image.length));
+            log.info("Image length of growl growl : {}", image.length);
         return image;
     }
 
