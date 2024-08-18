@@ -1,0 +1,5 @@
+/target/
+/.idea/
+/Dockerfile2
+/README.Docker.md
+/compose.yaml
