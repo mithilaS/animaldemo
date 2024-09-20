@@ -13,6 +13,9 @@ The self contained process consists of
   * **save-animal** : This will then save the image in MongoDb database with unique ID.
 * Application is containerized usign DockerFile
 
+## Modeler :
+![Image Alt text](animal-service.png)
+
 ## Sequence flow :
 ![Image Alt text](animaldemo2.png)
 
