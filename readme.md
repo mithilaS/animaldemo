@@ -13,6 +13,9 @@ The self contained process consists of
   * **save-animal** : This will then save the image in MongoDb database with unique ID.
 * Application is containerized usign DockerFile
 
+## Sequence flow :
+![Image Alt text](animaldemo2.png)
+
 ## Requirements:
 
 * Camunda Platform 8
